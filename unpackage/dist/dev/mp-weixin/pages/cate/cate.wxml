@@ -1,1 +1,1 @@
-<view></view>
+<view><view class="scroll-view"><scroll-view class="left" style="{{'height:'+(wh+'px')+';'}}" scroll-y="true"><block wx:for="{{cateList}}" wx:for-item="item" wx:for-index="i" wx:key="cat_id"><block><view data-event-opts="{{[['tap',[['activechange',[i]]]]]}}" class="{{['leftitem',i===active?'active':'']}}" bindtap="__e">{{item.cat_name}}</view></block></block></scroll-view><scroll-view class="right" style="{{'height:'+(wh+'px')+';'}}" scroll-y="true"><view></view></scroll-view></view></view>

@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+swiper {
+  height: 330rpx;
+}
+swiper .swiper-item,
+swiper image {
+  height: 100%;
+  width: 100%;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 15rpx 0;
+  height: 150rpx;
+}
+.nav .navitem,
+.nav image {
+  width: 128rpx;
+  height: 100%;
+}
+.floortitle {
+  height: 60rpx;
+  width: 100%;
+  display: flex;
+}
+.imgbox {
+  display: flex;
+  padding-left: 10rpx;
+}
+.right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
